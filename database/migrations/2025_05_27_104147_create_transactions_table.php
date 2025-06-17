@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('transactions', function (Blueprint $table) {
             $table->id();
+            $table->date('date');
+            $table->foreignId('customer_id')->constrained()->onDelete('cascade');
+            $table->string('day');
+            $table->decimal('amount', 10, 2);
             $table->timestamps();
         });
     }

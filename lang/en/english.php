@@ -1,0 +1,20 @@
+<?php
+return [
+    'title' => 'Mantra Canteen',
+    'filter_by_date' => 'Filter by Date',
+    'filter_by_year' => 'Year',
+    'filter_by_month' => 'Month',
+    'all_dates' => 'ALL DATES',
+    'all_years' => 'All Years',
+    'all_months' => 'All Months',
+    'sn' => 'S.N.',
+    'date' => 'Date',
+    'day' => 'Day',
+    'amount' => 'Amount (Rs.)',
+    'action' => 'Action',
+    'total' => 'Total',
+    'no_data' => 'No data available',
+    'scan_qr_code' => 'Scan QR Code',
+    'transaction_recorded' => 'Transaction recorded!',
+    'remove' => 'Remove',
+];
